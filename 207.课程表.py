@@ -1,5 +1,7 @@
 import queue
-
+# 
+# 拓扑排序的思想解决
+# 
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         graph = [[] for _ in range(numCourses)]

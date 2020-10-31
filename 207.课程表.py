@@ -27,8 +27,6 @@ class Solution:
                     search_queue.put(id)
                     select_node.append(id)
         
-            graph[idx] = []
-        
         if len(select_node) == numCourses:
             return True
         
